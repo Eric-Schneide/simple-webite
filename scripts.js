@@ -1,8 +1,10 @@
 $(document).ready(function(){
-    $(".dropButton2").click(function(){
-        $(".body-text1").slideDown();
+    $(".openButton").click(function(){
+        $(".bodytext").slideDown();
+        console.log("Running dropbutton open")
     });
-    $(".dropButton1").click(function(){
-        $(".body-text1").slideUp();
+    $(".closeButton").click(function(){
+        $(".bodytext").slideUp();
+        console.log("Running dropbutton close")
     });  
   });
